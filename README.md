@@ -1,2 +1,8 @@
 # MathEd-website
-Website of Journal "Mathematics Education" (in progress)
+Website of Journal "Mathematics Education" (in progress) <br />
+Main page Live version : https://xgnatyuk.github.io/MathEd-website <br />
+To-do list:
+- Current HTML & CSS refactoring according to BEM
+- Accessibility 
+- Responsive layout
+- Footer and latest updates fixes

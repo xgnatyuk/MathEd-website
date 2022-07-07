@@ -1,0 +1,37 @@
+.notes {
+    min-height: 560px;
+    background: #EDEFF0;
+}
+
+.notes__list {
+    padding-top: 40px;
+    columns: 2;
+    gap: 20px;
+}
+
+.notes__item {
+    min-width: 370px;
+    min-height: 220px;
+    margin-bottom: 35px;
+}
+
+.notes__header {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.notes__title {
+    margin-left: 16px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(61, 69, 81, 1);
+}
+
+.notes__desc {
+    font-size: 16px;
+    line-height: 22px;
+    color: #2D2E2F;
+}

@@ -1,0 +1,57 @@
+body {
+    font: 400 18px/1.42 'Helvetica', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper {
+    max-width: 1440px;
+    min-width: 1300px;
+}
+
+.container {
+    margin: 32px 144px 32px 144px;
+    max-width: 1130px;
+}
+
+.title {
+    color: rgba(61, 69, 81, 1);
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+}
+
+strong {
+    color: rgba(45, 46, 47, 1);
+}
+
+.highlight {
+    color: rgba(44, 96, 138, 1);
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+p {
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}

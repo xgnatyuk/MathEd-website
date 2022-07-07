@@ -1,0 +1,11 @@
+.purchase__title {
+    font-size: 24px;
+    letter-spacing: 0.02em;
+    color: #3D4551;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.purchase__desc p {
+    line-height: 28px;
+}

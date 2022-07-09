@@ -1,8 +1,7 @@
 .editors {
     padding: 32px 32px 24px 32px;
-    max-width: 1130px;
-    display: flex;
-    flex-wrap: wrap;
+    max-width: 1240px;
+    min-width: 290px;
 }
 
 .editors .title {
@@ -10,13 +9,17 @@
 }
 
 .editors__list {
-    columns: 3;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     gap: 24px;
 }
 
 .editors__item {
-    min-width: 318px;
+    min-width: 260px;
     min-height: 400px;
+    max-width: 500px;
     background: linear-gradient(180deg, #2C608A 0%, #2378C3 26%, rgba(237, 239, 240, 1) 26%);
     border-radius: 6px;
     margin-bottom: 20px;
@@ -25,6 +28,7 @@
     justify-content: center;
     align-items: flex-start;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    flex-basis: 318px;
 }
 
 .editors__header {

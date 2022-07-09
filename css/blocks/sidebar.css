@@ -1,18 +1,15 @@
 .sidebar {
     background: #565C65;
-    max-width: 280px;
     min-width: 280px;
     display: flex;
     flex-direction: column;
-}
-
-.sidebar__list {
-    flex-grow: 1;
+    justify-content: space-between;
+    flex-basis: 300px;
 }
 
 .sidebar__link {
     display: flex;
-    padding: 13px 16px 13px 22px;
+    padding: 20px 16px 20px 22px;
     color: #EDEFF0;
     text-decoration: none;
 }
@@ -27,6 +24,14 @@
     background: rgba(61, 69, 81, 1);
 }
 
+.sidebar__item--active .sidebar__arrow-icon {
+    display: none;
+}
+
+.sidebar__item--active:hover .sidebar__arrow-icon {
+    display: block;
+}
+
 .sidebar__link:hover {
     background: #71767A;
 }
@@ -38,7 +43,7 @@
 }
 
 .sidebar__title {
-    font-size: 20px;
+    font-size: 24px;
     line-height: 24px;
     flex-grow: 1;
 }
@@ -64,5 +69,5 @@
 }
 
 .sidebar-footer__text {
-    font-size: 14px;
+    font-size: 16px;
 }

@@ -1,17 +1,16 @@
 body {
-    font: 400 18px/1.42 'Helvetica', sans-serif;
+    font: 400 20px/1.42 'Helvetica', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 .wrapper {
-    max-width: 1440px;
-    min-width: 1300px;
+    display: flex;
+    flex-direction: row;
 }
 
 .container {
     margin: 32px 144px 32px 144px;
-    max-width: 1130px;
 }
 
 .title {

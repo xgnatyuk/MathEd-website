@@ -10,18 +10,20 @@
 </head>
 
 <body>
+
+    <header class="header">
+        <h1 class="header__title">Математическое образование</h1>
+    </header>
+
     <div class="wrapper">
-        <header class="header">
-            <h1 class="header__title">Математическое образование</h1>
-        </header>
-        <section class="section">
-            <aside class="sidebar">
+        <aside class="sidebar">
+            <nav class="sidevar__nav">
                 <ul class="sidebar__list">
                     <li class="sidebar__item sidebar__item--active">
                         <a href="#" class="sidebar__link">
                             <img src="./icons/home-icon.svg" alt="" class="sidebar__icon">
                             <span class="sidebar__title">Главная</span>
-                            <!-- <img src="./icons/arrow-icon.svg" alt="" class="sidebar__arrow-icon"> -->
+                            <img src="./icons/arrow-icon.svg" alt="" class="sidebar__arrow-icon">
                         </a>
                         <hr class="sidebar__divider">
                     </li>
@@ -67,49 +69,45 @@
                     </li>
 
                 </ul>
-                <footer class="sidebar-footer">
-                    <div class="sidebar-footer__text">
-                        Все права защищены © 1997 - 2021, журнал «Математическое образование»
-                    </div>
-                </footer>
-            </aside>
-            <div class="page">
-                <section class="about">
-                    <div class="container">
-                        <h2 class="title">О журнале</h2>
-                        <div class="about__content">
-                            <div class="about__desc">
-                                <p>Журнал <strong> «Математическое образование»</strong>, ISSN 1992-6138, — ежеквартальное издание по широкому кругу вопросов математического образования, включая также историю математики. </p>
-                                <p> Издатель и учредитель издания — <strong> Фонд математического образования и просвещения.</strong></p>
-                                <p> Выпуск современной серии журнала начался в 1997г., до этого журнал выходил в 1912-1918гг. и в 1928-1930гг. </p>
-                                <p>На страницах современной серии журнала выступали такие известные ученые, как <strong>В. И. Арнольд, А. А. Воронин, В. А. Дементьев, С. А. Кулешов, Ю. А. Неретин, В. П. Паламодов, Л. С. Понтрягин, М. М. Постников, И. Р. Шафаревич.</strong>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section class="purchase">
-                    <div class="container">
-                        <h3 class="purchase__title">Купить печатную версию</h3>
-                        <div class="purchase__desc">
-                            <p>Приобрести печатную версию журнала можно в книжном магазине нашего партнёра — <strong><a class="highlight" href="https://www.mccme.ru/"> Московского Центра Непрерывного Математического Образования (МЦНМО)</a></strong>, который
-                                находится по адресу<strong><a class="highlight" href="https://www.mccme.ru/address.html"> г. Москва, пер. Большой Власьевский, д. 11</a></strong> (метро Кропоткинская)
-                            </p>
-                        </div>
-                    </div>
-                </section>
-                <footer class="footer">
-                    <div class="container">
-                        <h3 class="footer__title">Последнее обновление</h3>
-                        <div class="footer__date">17.07.2021</div>
-                        <div class="footer_desc">На странице <strong><a class="highlight" href="#">Архив номеров</a></strong> добавлен 98-й номер журнала.</div>
-                    </div>
+            </nav>
+            <footer class="sidebar-footer">
+                <p class="sidebar-footer__text">
+                    Все права защищены © 1997 - 2021, журнал «Математическое образование»
+                </p>
+            </footer>
+        </aside>
 
-                </footer>
-            </div>
-        </section>
-    </div>
+        <main class="page">
 
+            <article class="about container">
+                <h2 class="title">О журнале</h2>
+                <div class="about__desc">
+                    <p>Журнал <strong> «Математическое образование»</strong>, ISSN 1992-6138, — ежеквартальное издание по широкому кругу вопросов математического образования, включая также историю математики. </p>
+                    <p> Издатель и учредитель издания — <strong> Фонд математического образования и просвещения.</strong></p>
+                    <p> Выпуск современной серии журнала начался в 1997г., до этого журнал выходил в 1912-1918гг. и в 1928-1930гг. </p>
+                    <p>На страницах современной серии журнала выступали такие известные ученые, как <strong>В. И. Арнольд, А. А. Воронин, В. А. Дементьев, С. А. Кулешов, Ю. А. Неретин, В. П. Паламодов, Л. С. Понтрягин, М. М. Постников, И. Р. Шафаревич.</strong>
+                    </p>
+                </div>
+            </article>
+
+            <section class="purchase container">
+                <h3 class="purchase__title">Купить печатную версию</h3>
+                <div class="purchase__desc">
+                    <p>Приобрести печатную версию журнала можно в книжном магазине нашего партнёра — <strong><a class="highlight" href="https://www.mccme.ru/"> Московского Центра Непрерывного Математического Образования (МЦНМО)</a></strong>, который находится
+                        по адресу<strong><a class="highlight" href="https://www.mccme.ru/address.html"> г. Москва, пер. Большой Власьевский, д. 11</a></strong> (метро Кропоткинская)
+                    </p>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <div class="container">
+                    <h3 class="footer__title">Последнее обновление</h3>
+                    <div class="footer__date">17.07.2021</div>
+                    <div class="footer_desc">На странице <strong><a class="highlight" href="#">Архив номеров</a></strong> добавлен 98-й номер журнала.</div>
+                </div>
+            </footer>
+
+        </main>
 </body>
 
 </html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <h1 class="header__title">Математическое образование</h1>
+    </header>
+    <div class="wrapper">
+
+        <aside class="sidebar">
+            <nav class="sidebar__nav">
+                <ul class="sidebar__list">
+                    <li class="sidebar__item">
+                        <a href="../index.html" class="sidebar__link">
+                            <img src="../icons/home-icon.svg" alt="" class="sidebar__icon">
+                            <span class="sidebar__title">Главная</span>
+                            <img src="../icons/arrow-icon.svg" alt="" class="sidebar__arrow-icon">
+                        </a>
+                        <hr class="sidebar__divider">
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="./editors.html" class="sidebar__link">
+                            <img src="../icons/users-icon.svg" alt="" class="sidebar__icon">
+                            <span class="sidebar__title">Редколлегия</span>
+                            <img src="../icons/arrow-icon.svg" alt="" class="sidebar__arrow-icon">
+                        </a>
+                        <hr class="sidebar__divider">
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="./archive.html" class="sidebar__link">
+                            <img src="../icons/archive-icon.svg" alt="" class="sidebar__icon">
+                            <span class="sidebar__title">Архив номеров</span>
+                            <img src="../icons/arrow-icon.svg" alt="" class="sidebar__arrow-icon">
+                        </a>
+                        <hr class="sidebar__divider">
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="./authors.html" class="sidebar__link">
+                            <img src="../icons/info-icon.svg" alt="" class="sidebar__icon">
+                            <span class="sidebar__title">Авторам</span>
+                            <img src="../icons/arrow-icon.svg" alt="" class="sidebar__arrow-icon">
+                        </a>
+                        <hr class="sidebar__divider">
+                    </li>
+                    <li class="sidebar__item">
+                        <a href="./supplement.html" class="sidebar__link">
+                            <img src="../icons/suppl-icon.svg" alt="" class="sidebar__icon">
+                            <span class="sidebar__title">Приложение</span>
+                            <img src="../icons/arrow-icon.svg" alt="" class="sidebar__arrow-icon">
+                        </a>
+                        <hr class="sidebar__divider">
+                    </li>
+                    <li class="sidebar__item sidebar__item--active">
+                        <a href="./contacts.html" class="sidebar__link">
+                            <img src="../icons/contacts-icon.svg" alt="" class="sidebar__icon">
+                            <span class="sidebar__title">Контакты</span>
+                            <img src="../icons/arrow-icon.svg" alt="" class="sidebar__arrow-icon">
+                        </a>
+                        <hr class="sidebar__divider">
+                    </li>
+
+                </ul>
+            </nav>
+            <footer class="sidebar-footer">
+                <p class="sidebar-footer__text">
+                    Все права защищены © 1997 - 2021, журнал «Математическое образование»
+                </p>
+            </footer>
+        </aside>
+
+        <main class="page">
+            <section class="contacts container">
+                <h2 class="title">Контакты</h2>
+                <div class="contacts__desc"> Для связи с редакцией можно воспользоваться одним из следующих способов:</div>
+                <ul class="contacts__list">
+                    <li class="contacts__item">
+                        <div class="contacts__option">Телефон:</div>
+                        <a href="tel:+7-495-777-22-55" class="contacts__phone">+7-495-777-22-55</a>
+                    </li>
+                    <li class="contacts__item">
+                        <div class="contacts__option">E-mail:</div>
+                        <a href="mailto:matob@yandex.ru" class="contacts__email">matob@yandex.ru</a>
+                    </li>
+                </ul>
+            </section>
+
+            <form action="" autocomplete="on" class="form">
+                <div class="container">
+                    <h3 class="form__title">Форма для связи</h3>
+                    <div class="form__content">
+                        <h4 class="form__name">Ваше имя <span class="form__star">*</span></h4>
+                        <input type="text" class="form__input" required>
+                        <h4 class="form__email"> Ваш e-mail <span class="form__star">*</span></h4>
+                        <input type="email" class="form__input" required>
+                        <h4 class="form__message">Сообщение</h4>
+                        <textarea class="form__textarea" name="" id="" required></textarea>
+                    </div class="form__content">
+                    <input type="submit" value="Отправить" class="form__submit">
+
+                </div>
+
+            </form>
+        </main>
+</body>
+
+</html>

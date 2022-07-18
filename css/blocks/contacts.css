@@ -1,0 +1,21 @@
+.contacts__desc {
+    color: #2D2E2F;
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+
+.contacts__item {
+    display: flex;
+    flex-direction: row;
+    font-weight: 700;
+}
+
+.contacts__option {
+    color: #3D4551;
+}
+
+.contacts__phone,
+.contacts__email {
+    color: #2C608A;
+    margin-left: 16px;
+}

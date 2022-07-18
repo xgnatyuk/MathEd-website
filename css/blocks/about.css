@@ -6,3 +6,12 @@
     margin: 16px 0px 16px 30px;
     line-height: 28px;
 }
+
+@media screen and (max-width: 890px) {
+    .about__desc {
+        border-left: none;
+    }
+    .about__desc p {
+        margin-left: 0;
+    }
+}

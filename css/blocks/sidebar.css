@@ -1,10 +1,16 @@
 .sidebar {
     background: #565C65;
-    min-width: 280px;
+    min-width: 340px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     flex-basis: 300px;
+}
+
+@media screen and (max-width: 890px) {
+    .sidebar {
+        display: none;
+    }
 }
 
 .sidebar__link {
@@ -15,8 +21,7 @@
 }
 
 .sidebar__link:focus {
-    border: 2px solid #AACDEC;
-    box-shadow: inset 0px 0px 0px 2px #AACDEC;
+    box-shadow: inset 0px 0px 0px 4px #AACDEC;
     outline: none;
 }
 

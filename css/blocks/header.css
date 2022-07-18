@@ -59,6 +59,9 @@
     .header {
         max-height: 72px;
     }
+    .header__title {
+        padding: 10px 0px 10px 32px;
+    }
     .menu {
         display: block;
         border: none;

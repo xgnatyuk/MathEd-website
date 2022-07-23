@@ -1,0 +1,93 @@
+.table__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #EDEFF0;
+    padding: 18px 16px;
+    align-items: baseline;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1072px) {
+    .table__header {
+        flex-direction: column;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+    }
+}
+
+.table.container {
+    margin-top: 0;
+}
+
+.table__top {
+    color: rgba(44, 96, 138, 1);
+    font-weight: 700;
+}
+
+.table__issue-num {
+    color: #3D4551;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 992px) {
+    .table__issue-num {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 472px) {
+    .table__issue-num {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1100px) {
+    .table__issue-num {
+        font-size: 20px;
+    }
+}
+
+.table__download-link {
+    padding: 12px;
+    background: rgba(58, 125, 149, 1);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.table__download-icon {
+    width: 15px;
+    height: 16px;
+}
+
+.table__download-text {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-left: 2px;
+    font-weight: 700;
+}
+
+table .table__title {
+    text-align: center;
+    color: #3D4551;
+    padding: 16px 0px 4px 0px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+table .pagenum {
+    color: rgba(45, 46, 47, 1);
+    font-weight: 700;
+}
+
+td {
+    padding: 12px 0px 0px 0px;
+    font-size: 16px;
+}

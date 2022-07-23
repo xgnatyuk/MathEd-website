@@ -11,11 +11,20 @@
 }
 
 .contacts__option {
+    min-width: 95px;
     color: #3D4551;
+    text-align: right;
 }
 
 .contacts__phone,
 .contacts__email {
     color: #2C608A;
     margin-left: 16px;
+}
+
+@media screen and (max-width: 360px) {
+    .contacts__phone,
+    .contacts__email {
+        font-size: 18px;
+    }
 }

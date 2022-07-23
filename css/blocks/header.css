@@ -15,6 +15,12 @@
     padding: 20px 0px 20px 32px;
 }
 
+@media screen and (max-width:648px) {
+    .header__title {
+        font-size: 20px;
+    }
+}
+
 .menu {
     width: 72px;
     height: 72px;
@@ -55,7 +61,7 @@
     margin-bottom: 4px;
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:890px) {
     .header {
         max-height: 72px;
     }
@@ -65,8 +71,5 @@
     .menu {
         display: block;
         border: none;
-    }
-    .header__title {
-        font-size: 20px;
     }
 }

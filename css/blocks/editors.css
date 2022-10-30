@@ -5,6 +5,13 @@
     max-width: 2000px;
 }
 
+@media screen and (max-width: 476px) {
+    .editors {
+        margin: 16px auto;
+        width: 95%;
+    }
+}
+
 .editors .title {
     margin-bottom: 27px;
 }
